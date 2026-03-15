@@ -8,7 +8,11 @@
   (:use #:cl)
   (:nicknames #:threading-sbcl)
   (:export
-   #:with-threading-sbcl-timing
+   #:identity-list
+   #:flatten
+   #:map-keys
+   #:now-timestamp
+#:with-threading-sbcl-timing
    #:threading-sbcl-batch-process
    #:threading-sbcl-health-check;; Thread operations
    #:make-thread

@@ -8,7 +8,9 @@
   (:use #:cl)
   (:nicknames #:threading-sbcl)
   (:export
-   ;; Thread operations
+   #:with-threading-sbcl-timing
+   #:threading-sbcl-batch-process
+   #:threading-sbcl-health-check;; Thread operations
    #:make-thread
    #:join-thread
    #:thread-alive-p
